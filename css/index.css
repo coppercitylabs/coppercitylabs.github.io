@@ -18,5 +18,5 @@ header h1 {
 header h1 img {
     display: inline-block;
     vertical-align: middle;
-    opacity: 0.75;
+    /* opacity: 0.75; */
 }
