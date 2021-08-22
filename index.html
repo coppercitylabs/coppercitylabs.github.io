@@ -9,42 +9,51 @@
     <body>
         <header>
             <!-- <h1><img src="images/logo-100x100.png" srcset="images/logo-50x50.png, images/logo-150x150.png 1.5x, images/logo-200x200.png 2x" width="100" height="100" alt="Logo"> Copper City Labs</h1> -->
-            <h1><img src="images/logo.png" width="280" height="70" alt="Copper City Labs"></h1>
+            <h1>
+                <img src="images/logo.png" width="280" height="70">
+                <span>Copper City Labs</span>
+            </h1>
         </header>
         <main>
-            <h2>Publications</h2>
-            <ol>
-                <li>UzBERT: pretraining a BERT model for Uzbek [<a href="papers/uzbert-pretrainig-a-bert-model-for-uzbek.pdf">PDF</a>, <a href="#">arXiv (soon)</a>, <a href="https://doi.org/10.6084/m9.figshare.16369125.v1">figshare</a>]</li>
-                <li>Uzbek Cyrillic-Latin-Cyrillic Machine Transliteration [<a href="papers/uzbek-cyrillic-latin-cyrillic-machine-transliteration.pdf">PDF</a>, <a href="https://arxiv.org/abs/2101.05162">arXiv</a>, <a href="https://doi.org/10.6084/m9.figshare.13565057">figshare</a>]</li>
-                <li>Development of Word Embeddings for Uzbek Language [<a href="papers/development-of-word-embeddings-for-uzbek-language.pdf">PDF</a>, <a href="https://arxiv.org/abs/2009.14384">arXiv</a>, <a href="https://doi.org/10.6084/m9.figshare.13565066">figshare</a>]
-                </li>
-            </ol>
-
+            <section>
+                <h2>Publications</h2>
+                <ol>
+                    <li>UzBERT: pretraining a BERT model for Uzbek [<a href="papers/uzbert-pretrainig-a-bert-model-for-uzbek.pdf">PDF</a>, <a href="#">arXiv (soon)</a>, <a href="https://doi.org/10.6084/m9.figshare.16369125.v1">figshare</a>]</li>
+                    <li>Uzbek Cyrillic-Latin-Cyrillic Machine Transliteration [<a href="papers/uzbek-cyrillic-latin-cyrillic-machine-transliteration.pdf">PDF</a>, <a href="https://arxiv.org/abs/2101.05162">arXiv</a>, <a href="https://doi.org/10.6084/m9.figshare.13565057">figshare</a>]</li>
+                    <li>Development of Word Embeddings for Uzbek Language [<a href="papers/development-of-word-embeddings-for-uzbek-language.pdf">PDF</a>, <a href="https://arxiv.org/abs/2009.14384">arXiv</a>, <a href="https://doi.org/10.6084/m9.figshare.13565066">figshare</a>]
+                    </li>
+                </ol>
+            </section>
             <!-- <h2>Datasets</h2> -->
 
-            <h2>Models</h2>
-            <ol>
-                <li>UzBERT (BERT for Cyrillic Uzbek) [<a href="https://huggingface.co/coppercitylabs/uzbert-base-uncased">Hugging Face Hub</a>]</li>
-                <li>Uzbek tokenizers [<a href="https://github.com/coppercitylabs/uzbek-tokenizers">GitHub</a>]
-                </li>
-                <li>
-                    Word embeddings for Uzbek (Cyrillic):
-                    <ul>
-                        <li>100d fasttext (CBOW) [<a href="https://doi.org/10.6084/m9.figshare.12999098">figshare</a>]</li>
-                        <li>100d fasttext (skipgram) [<a href="https://doi.org/10.6084/m9.figshare.12999815">figshare</a>]</li>
-                        <li>100d word2vec (CBOW, negative sampling) [<a href="https://doi.org/10.6084/m9.figshare.12991472">figshare</a>]</li>
-                        <li>100d word2vec (skipgram, negative sampling) [<a href="https://doi.org/10.6084/m9.figshare.12991484">figshare</a>]</li>
-                        <li>300d fasttext (CBOW) [<a href="https://doi.org/10.6084/m9.figshare.12999116">figshare</a>]</li>
-                        <li>300d fasttext (skipgram) [<a href="https://doi.org/10.6084/m9.figshare.12999839">figshare</a>]</li>
-                        <li>300d glove [<a href="https://doi.org/10.6084/m9.figshare.12991487">figshare</a>]</li>
-                        <li>300d word2vec (CBOW, hierarchical softmax) [<a href="https://doi.org/10.6084/m9.figshare.12991454">figshare</a>]</li>
-                        <li>300d word2vec (skipgram, hierarchical softmax) [<a href="https://doi.org/10.6084/m9.figshare.12991475">figshare</a>]</li>
-                    </ul>
-                </li>
-            </ol>
-            <h2>About</h2>
-            <p>Copper City Labs is a research lab that specializes in
-            making computers understand the Uzbek language. You may reach us at <a href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#099;&#111;&#112;&#112;&#101;&#114;&#099;&#105;&#116;&#121;&#108;&#097;&#098;&#115;&#046;&#099;&#111;&#109;">&#104;&#101;&#108;&#108;&#111;&#064;&#099;&#111;&#112;&#112;&#101;&#114;&#099;&#105;&#116;&#121;&#108;&#097;&#098;&#115;&#046;&#099;&#111;&#109;</a>.
+            <section>
+                <h2>Models</h2>
+                <ol>
+                    <li>UzBERT (BERT for Cyrillic Uzbek) [<a href="https://huggingface.co/coppercitylabs/uzbert-base-uncased">Hugging Face Hub</a>]</li>
+                    <li>Uzbek tokenizers [<a href="https://github.com/coppercitylabs/uzbek-tokenizers">GitHub</a>]
+                    </li>
+                    <li>
+                        Word embeddings for Uzbek (Cyrillic):
+                        <ul>
+                            <li>100d fasttext (CBOW) [<a href="https://doi.org/10.6084/m9.figshare.12999098">figshare</a>]</li>
+                            <li>100d fasttext (skipgram) [<a href="https://doi.org/10.6084/m9.figshare.12999815">figshare</a>]</li>
+                            <li>100d word2vec (CBOW, negative sampling) [<a href="https://doi.org/10.6084/m9.figshare.12991472">figshare</a>]</li>
+                            <li>100d word2vec (skipgram, negative sampling) [<a href="https://doi.org/10.6084/m9.figshare.12991484">figshare</a>]</li>
+                            <li>300d fasttext (CBOW) [<a href="https://doi.org/10.6084/m9.figshare.12999116">figshare</a>]</li>
+                            <li>300d fasttext (skipgram) [<a href="https://doi.org/10.6084/m9.figshare.12999839">figshare</a>]</li>
+                            <li>300d glove [<a href="https://doi.org/10.6084/m9.figshare.12991487">figshare</a>]</li>
+                            <li>300d word2vec (CBOW, hierarchical softmax) [<a href="https://doi.org/10.6084/m9.figshare.12991454">figshare</a>]</li>
+                            <li>300d word2vec (skipgram, hierarchical softmax) [<a href="https://doi.org/10.6084/m9.figshare.12991475">figshare</a>]</li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>About</h2>
+                <p>Copper City Labs is a research lab that specializes in
+                    making computers understand the Uzbek language. You may reach us at <a href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#099;&#111;&#112;&#112;&#101;&#114;&#099;&#105;&#116;&#121;&#108;&#097;&#098;&#115;&#046;&#099;&#111;&#109;">&#104;&#101;&#108;&#108;&#111;&#064;&#099;&#111;&#112;&#112;&#101;&#114;&#099;&#105;&#116;&#121;&#108;&#097;&#098;&#115;&#046;&#099;&#111;&#109;</a>.
+            </section>
         </main>
         <footer>
         </footer>
